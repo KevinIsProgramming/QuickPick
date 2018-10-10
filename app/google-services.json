@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996249583868",
+    "firebase_url": "https://quickpick-90aee.firebaseio.com",
+    "project_id": "quickpick-90aee",
+    "storage_bucket": "quickpick-90aee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996249583868:android:3d6019c119fd9fb7",
+        "android_client_info": {
+          "package_name": "com.mad.quickpick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996249583868-mu2i7pckq279h388carhlotvh0geop70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mad.quickpick",
+            "certificate_hash": "969139d0f3d56a8ff865884010c2c6cff01c6616"
+          }
+        },
+        {
+          "client_id": "996249583868-arnri1c267cdupau5fptgsckc5bs2jkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSoZQas7X9hoiyOHtzbd45vtrilfnq4EY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996249583868-arnri1c267cdupau5fptgsckc5bs2jkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
