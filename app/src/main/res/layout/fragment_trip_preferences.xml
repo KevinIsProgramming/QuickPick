@@ -3,38 +3,41 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:id="@+id/preferences_where_to_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/fab_margin">
-        <TextView
-            android:id="@+id/preferences_where_to_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Where to?"
-            android:textStyle="italic"
-            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Select Location"
-            android:id="@+id/preferences_where_to_button"/>
-        <TextView
-            android:id="@+id/preferences_location_selected_tv"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:autoLink="all"
-            android:textAppearance="?android:attr/textAppearanceMedium"/>
-    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:id="@+id/preferences_where_to_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_margin="@dimen/fab_margin">-->
+        <!--<TextView-->
+            <!--android:id="@+id/preferences_where_to_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Where to?"-->
+            <!--android:textStyle="italic"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Select Location"-->
+            <!--android:id="@+id/preferences_where_to_button"/>-->
+
+        <!--&lt;!&ndash;<include layout="@layout/fragment_autocomplete" />&ndash;&gt;-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/preferences_location_selected_tv"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="2"-->
+            <!--android:autoLink="all"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"/>-->
+
+    <!--</LinearLayout>-->
     <LinearLayout
         android:id="@+id/preferences_how_much"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@id/preferences_where_to_layout"
         android:layout_margin="@dimen/fab_margin">
         <TextView
             android:id="@+id/preferences_how_much_tv"
@@ -99,40 +102,6 @@
                     android:layout_column="2"/>
             </TableRow>
         </TableLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true">
-
-        <TextView
-            android:text="@string/selected_place"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/place_details"
-            android:autoLink="all"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/place_attribution"
-            android:autoLink="all"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp" />
-
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/preferences_next_fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_margin="@dimen/fab_margin" />
     </LinearLayout>
 
 

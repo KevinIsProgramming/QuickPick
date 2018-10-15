@@ -57,5 +57,11 @@
         Location selected: <b>%1$s</b>
         ]]>
     </string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_forums">Forums</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_trip_preferences1">TripPreferencesActivity1</string>
+    <string name="title_activity_trip_preferences">Trip Preferences</string>
 
 </resources>

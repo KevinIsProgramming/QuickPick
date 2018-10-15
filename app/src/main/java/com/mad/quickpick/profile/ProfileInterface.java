@@ -1,30 +1,30 @@
-//package com.mad.quickpick.profile;
+package com.mad.quickpick.profile;
+
+import com.mad.quickpick.BasePresenter;
+import com.mad.quickpick.BaseView;
+
+public interface ProfileInterface {
+
+    interface View extends BaseView<Presenter> {
+
+//        void showName;
 //
-//import com.mad.quickpick.BasePresenter;
-//import com.mad.quickpick.BaseView
+//        void showProfilePicture;
 //
-//public interface ProfileInterface {
+//        void showTripCount;
+
+
+
+
+    }
+
+    interface Presenter extends BasePresenter {
+
+//        void editName;
 //
-//    interface View extends BaseView<Presenter> {
+//        void editProfilePicture;
 //
-////        void showName;
-////
-////        void showProfilePicture;
-////
-////        void showTripCount;
-//
-//
-//
-//
-//    }
-//
-//    interface Presenter extends BasePresenter {
-//
-////        void editName;
-////
-////        void editProfilePicture;
-////
-////        void editAboutMe;
-//
-//    }
-//}
+//        void editAboutMe;
+
+    }
+}

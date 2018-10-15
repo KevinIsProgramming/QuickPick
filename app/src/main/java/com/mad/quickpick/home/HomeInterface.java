@@ -1,7 +1,5 @@
 package com.mad.quickpick.home;
 
-import android.app.Activity;
-
 import com.mad.quickpick.BasePresenter;
 import com.mad.quickpick.BaseView;
 
@@ -15,7 +13,6 @@ public interface HomeInterface {
     }
 
     interface Presenter extends BasePresenter {
-        void startIntent(Activity activity, Class c);
 
     }
 }
